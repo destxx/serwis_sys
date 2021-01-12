@@ -1,0 +1,215 @@
+html, body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+  text-align: center;
+}
+
+h2 {
+  font-weight: 800;
+  text-align: left;
+  font-size: 21px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 800;
+  margin-left: 30px;
+}
+
+form {
+  position: relative;
+  width: 360px;
+  height: 250px;
+  margin: 10px auto;
+  text-align: center;
+  padding: 40px;
+}
+
+input {
+  display: block;
+  width: 315px;
+  padding: 14px;
+  border: 1;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+input:focus {
+  background: #ccc4c4;
+}
+
+#btn1 {
+  background: #ccc4c4;
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid black;
+}
+
+#btn2 {
+  background: #ccc4c4;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+#btn3 {
+  background: #ccc4c4;
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 30px;
+  border: 2px solid black;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  width: 315px;
+}
+
+#btn4 {
+  background: #ccc4c4;
+  font-weight: 800;
+  font-size: 20px;
+  border: 2px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#btn1:hover {
+  background-color: green;
+  color: white;
+}
+
+#btn2:hover {
+  background-color: red;
+  color: white;
+}
+
+#btn3:hover {
+  background-color: red;
+  color: white;
+}
+
+#btn4:hover {
+  background-color: green;
+  color: white;
+}
+
+textarea {
+  resize: none;
+  display: block;
+  width: 315px;
+  padding: 14px;
+  border: 1;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.show {
+  font-weight: bold;
+  margin-left: 40%;
+}
+
+.show2 {
+  color: red;
+  margin: -20px 0;
+  margin-bottom: 1px;
+}
+
+.index-serwis_sys h1 {
+  margin-bottom: 40px;
+}
+
+.index-serwis_sys .list {
+  padding-top: 20px;
+  padding-bottom: 13px;
+  background: #f0eaea;
+}
+
+.index-serwis_sys .list h4 a {
+  color: black;
+  text-decoration: none !important;
+  font-weight: 600;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.list:hover {
+  background-color: #ccc4c4;
+}
+
+.welcome-serwis_sys {
+  font-weight: 1000;
+  font-size: 50px;
+}
+
+img {
+  padding: 5px;
+  width: 200px;
+}
+
+#logo {
+  width: 60px;
+}
+
+.card {
+  height: 570px;
+}
+
+.navbar {
+  background-image: url("/imgs/serwisback.jpg");
+  background-repeat: repeat-x;
+}
+
+#error {
+  width: 500px;
+  height: 500px;
+  margin-top: -30px;
+}
+
+.error-content {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  margin-top: 50px;
+}
+
+h5 {
+  font-weight: 800;
+}
+
+strong {
+  font-size: 24px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 85%, #ccc4c4 30%);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.invalid-feedback strong {
+  width: 100%;
+  margin-top: 0.25rem;
+  font-size: 12px;
+  color: #e3342f;
+}
+
+.users {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.users p {
+  margin-bottom: -10px;
+  color: red;
+  font-weight: bold;
+}
+
+#users h1 {
+  margin-left: 0;
+}
